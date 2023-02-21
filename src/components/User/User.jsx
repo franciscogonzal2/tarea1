@@ -16,7 +16,7 @@ const User = ({ username }) => {
 
   return (
     <Card style={{ width: '18rem' }} className="container2">
-      <Card.Img variant="top" src={userData.avatar_url} />
+      <Card.Img variant="top" src={userData.avatar_url} className="imgprofile"/>
       <Card.Body>
         <Card.Title>{userData.name}</Card.Title>
         <Card.Text>{userData.bio}</Card.Text>
