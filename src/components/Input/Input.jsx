@@ -17,7 +17,7 @@ const Input = ({ onSubmit }) => {
     <div className='container'>
     <Form onSubmit={handleSubmit}>
       <Form.Group controlId="formUsername">
-        <Form.Label>Username</Form.Label>
+        <Form.Label>Username </Form.Label>
         <Form.Control
           type="text"
           placeholder="Enter username"
