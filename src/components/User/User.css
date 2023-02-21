@@ -1,5 +1,12 @@
 .container2{
-    padding: 4rem;
+    width: 25%;
+    padding: 60px;
     border: 3px solid #4CAF50;
+    background-color: white;
+    height: 25%;
+    justify-content: center;
+    position: fixed;
     top: 30%;
+    left: 50%;
+    border-radius: 15px;
 }
