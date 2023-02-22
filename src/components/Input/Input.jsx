@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import './Input.css'
+
 const Input = ({ onSubmit }) => {
   const [username, setUsername] = useState('');
 
@@ -25,7 +26,7 @@ const Input = ({ onSubmit }) => {
           onChange={handleChange}
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className='btnFindUser'>
         Submit
       </Button>
     </Form>
